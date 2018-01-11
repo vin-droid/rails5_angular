@@ -1,0 +1,11 @@
+<p>
+  product works!
+</p>
+<ul>
+	<li *ngFor="let product of products">
+		<span>{{product.id}}</span>
+		<span>{{product.name}}</span>
+		<span>{{product.discription}}</span>
+		<<button (click)= "save()">save</button>
+	</li>
+</ul>
